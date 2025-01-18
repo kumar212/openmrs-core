@@ -1165,17 +1165,17 @@
 
 	<repositories>
 		<repository>
-			<id>central</id>
+			<id>openmrs-repo-releases</id>
 			<name>OpenMRS Nexus Repository</name>
-			<url>https://repo.maven.apache.org/maven2</url>
+			<url>https://mavenrepo.openmrs.org/nexus/content/repositories/releases</url>
 		</repository>
 	</repositories>
 
 	<pluginRepositories>
 		<pluginRepository>
-			<id>central</id>
+			<id>openmrs-repo-releases</id>
 			<name>OpenMRS Nexus Repository</name>
-			<url>https://repo.maven.apache.org/maven2</url>
+			<url>https://mavenrepo.openmrs.org/nexus/content/repositories/releases</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
